@@ -1,0 +1,171 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/gameParent"
+    android:background="@drawable/myshape" >
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollCarte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp" >
+
+        <LinearLayout
+            android:id="@+id/LinerLayoutContentCards"
+            android:layout_width="wrap_content"
+        	android:layout_marginBottom="0dp"
+            android:layout_height="100dp"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/but_choix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/horizontalScrollCarte"
+        android:layout_alignRight="@+id/horizontalScrollCarte"
+        android:text="@string/txt_decision" />
+
+    <LinearLayout
+        android:id="@+id/linerLayoutComputerLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="61dp"
+        android:background="@drawable/myshape_joueur"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtV_PlayerLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_playerleft"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/txtV_DecisionLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linerLayoutComputerRigth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/linerLayoutComputerLeft"
+        android:layout_marginRight="0dp"
+        android:background="@drawable/myshape_joueur"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtV_PlayerRigth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_playerrigth"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/txtV_DecisionRigth"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linerLayoutComputerCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/myshape_joueur"
+        android:orientation="vertical"
+        android:visibility="invisible" >
+
+        <TextView
+            android:id="@+id/txtV_PlayerCenter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_playercenter"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/txtV_DecisionCenter"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/linerLayoutComputerCenter"
+        android:layout_marginRight="30dp"
+        android:layout_toLeftOf="@+id/linerLayoutComputerRigth"
+        android:background="@drawable/myshape_joueur"
+        android:orientation="vertical"
+        android:visibility="invisible" >
+
+        <TextView
+            android:id="@+id/txtV_PlayerCenterRigth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_playercenter"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/txtV_DecisionCenterRigth"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/linerLayoutComputerCenter"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/linerLayoutComputerLeft"
+        android:background="@drawable/myshape_joueur"
+        android:orientation="vertical"
+        android:visibility="invisible" >
+
+        <TextView
+            android:id="@+id/txtV_PlayerCenterLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_playercenter"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/txtV_DecisionCenterLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutChienAjout"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:visibility="invisible"
+        android:layout_marginTop="0dp"
+        android:layout_centerHorizontal="true" >
+    </LinearLayout>
+
+</RelativeLayout>

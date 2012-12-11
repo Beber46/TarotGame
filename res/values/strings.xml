@@ -1,0 +1,56 @@
+<resources>
+
+    <string name="app_name">Tarot Game</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_welcome">Tarot Game </string>
+    <string name="txt_newgame">Nouvelle partie</string>
+    <string name="txt_continue">Continue</string>
+    <string name="txt_profil">Profil</string>
+    <string name="title_activity_game">Partie</string>
+    <string name="title_activity_profil">Profil</string>
+    <string name="title_dialog_newgame">Choisir le nombre de joueur :</string>
+	
+    <string-array name="choix_nb_joueur">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string name="nb_joueur">Nombre de joueurs</string>
+    <string name="txt_decision">Choix</string>
+    <string-array name="choix_donne">
+        <item >Passe</item>
+        <item >Petite</item>
+        <item >Garde</item>
+        <item >Garde Sans</item>
+        <item >Garde Contre</item>
+    </string-array>
+    <string-array name="choix_donne_sans_Petite">
+        <item >Passe</item>
+        <item >Garde</item>
+        <item >Garde Sans</item>
+        <item >Garde Contre</item>
+    </string-array>
+    <string-array name="choix_donne_sans_Garde">
+        <item >Passe</item>
+        <item >Garde Sans</item>
+        <item >Garde Contre</item>
+    </string-array>
+    <string-array name="choix_donne_sans_GardeSans">
+        <item >Passe</item>
+        <item >Garde Contre</item>
+    </string-array>
+    <string name="title_choix_donne">Choix :</string>
+    <string name="txt_playercenter">Centre</string>
+    <string name="txt_playerrigth">Droite</string>
+    <string name="txt_playerleft">Gauche</string>
+    <string name="passe">passe</string>
+    <string name="petite">petite</string>
+    <string name="garde">garde</string>
+    <string name="gardesans">garde sans</string>
+    <string name="gardecontre">garde contre</string>
+    <string name="txt_ok">Valider</string>
+    <string name="txt_dodog">Faire votre chien</string>
+    <string name="txt_nook">Refaire</string>
+    
+</resources>
