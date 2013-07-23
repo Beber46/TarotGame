@@ -12,7 +12,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".WelcomeActivity"
+            android:name="fr.beber.game.WelcomeActivity"
             android:label="@string/title_activity_welcome"
             android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"
             android:theme="@android:style/Theme.NoTitleBar" >
@@ -23,7 +23,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".GameActivity"
+            android:name="fr.beber.game.GameActivity"
             android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"
             android:label="@string/title_activity_game"
             android:theme="@android:style/Theme.NoTitleBar" >
@@ -32,7 +32,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ProfilActivity"
+            android:name="fr.beber.game.ProfilActivity"
             android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"
             android:label="@string/title_activity_profil"
             android:theme="@android:style/Theme.NoTitleBar" >

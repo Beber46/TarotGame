@@ -1,4 +1,4 @@
-package net.knowledgecommunity.game;
+package fr.beber.game;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -1,8 +1,10 @@
-package net.knowledgecommunity.game;
+package fr.beber.game;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+
+import net.knowledgecommunity.game.R;
 
 import android.os.Bundle;
 import android.os.Handler;

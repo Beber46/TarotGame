@@ -1,5 +1,6 @@
-package net.knowledgecommunity.game;
+package fr.beber.game;
 
+import net.knowledgecommunity.game.R;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;

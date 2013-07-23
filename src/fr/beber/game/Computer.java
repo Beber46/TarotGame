@@ -1,7 +1,9 @@
-package net.knowledgecommunity.game;
+package fr.beber.game;
 
 import java.util.List;
 import java.util.Random;
+
+import net.knowledgecommunity.game.R;
 
 import android.util.Log;
 import android.view.ViewGroup;

@@ -1,4 +1,4 @@
-package net.knowledgecommunity.game;
+package fr.beber.game;
 
 import android.util.Log;
 

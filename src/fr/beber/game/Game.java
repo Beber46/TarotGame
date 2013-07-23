@@ -1,9 +1,11 @@
-package net.knowledgecommunity.game;
+package fr.beber.game;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Date;
 import java.util.List;
+
+import net.knowledgecommunity.game.R;
 
 import android.util.Log;
 
