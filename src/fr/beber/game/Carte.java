@@ -5,7 +5,7 @@ import android.util.Log;
 public class Carte {
 
 	//Information de debug 
-	private final String TAG = "Knowledge community - Carte";
+	private final String TAG = "BeBer - Carte";
 	
 	private String name; //Nom de la carte
 	private int idImage; //id de l'image dans le drawable

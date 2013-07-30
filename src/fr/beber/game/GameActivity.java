@@ -34,7 +34,7 @@ public class GameActivity extends Activity implements OnClickListener{
 	private static final String GARDECONTRE = "Garde Contre";
 	
 	//Information de debug 
-	private final String TAG = "Knowledge community - GameActivity";
+	private final String TAG = "BeBer - GameActivity";
 		
 	private Game mGame = null;
 	private List<Player> mTabPlayer;

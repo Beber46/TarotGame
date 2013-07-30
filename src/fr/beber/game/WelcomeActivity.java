@@ -13,7 +13,7 @@ import android.content.Intent;
 public class WelcomeActivity extends Activity {
 
 	//Information de debug 
-	private final String TAG = "Knowledge community";
+	private final String TAG = "BeBer";
 	public static final boolean DEBUG = true;
 
 	//Il s'agit des trois boutons intiales

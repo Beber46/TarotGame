@@ -13,7 +13,7 @@ import android.util.Log;
 public class Game {
 
 	//Information de debug 
-	private final String TAG = "Knowledge community - Game";
+	private final String TAG = "BeBer - Game";
 	
 	private Date dateCreate; //date à laquel la partie à commencer
 	private int mode; //Mode de partie : 3 ou 4 ou 5

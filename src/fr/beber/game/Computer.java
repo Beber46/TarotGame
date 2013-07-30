@@ -13,7 +13,7 @@ import android.widget.TextView;
 public class Computer extends Player{
 	
 	//Information de debug 
-	private final String TAG = "Knowledge community - Computer";
+	private final String TAG = "BeBer - Computer";
 	
 	private int position; //définition de la position, 0 si défense et 1 si attaque
 	private int[][] NBValCartes = new int[5][7]; //compteur de carte en main

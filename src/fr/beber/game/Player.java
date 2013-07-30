@@ -14,7 +14,7 @@ public class Player{
 	public static final int DEFENSEUR = 1;
 	
 	//Information de debug 
-	private final String TAG = "Knowledge community - Player";
+	private final String TAG = "BeBer - Player";
 	
 	protected String name; //Il s'agit du nom du joueur
 	protected int decision; //détermine la décision en cours
