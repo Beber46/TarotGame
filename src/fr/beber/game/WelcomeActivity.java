@@ -1,6 +1,5 @@
 package fr.beber.game;
 
-import net.knowledgecommunity.game.R;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
